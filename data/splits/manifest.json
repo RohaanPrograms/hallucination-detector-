@@ -1,0 +1,45 @@
+{
+  "seed": 42,
+  "splits": {
+    "train": {
+      "file": "train.jsonl",
+      "task": "qa",
+      "rows": 16000,
+      "pairs": 8000,
+      "hallucinated_frac": 0.5,
+      "md5": "5b30c922390c11bb27d3a02ce29775b8"
+    },
+    "val": {
+      "file": "val.jsonl",
+      "task": "qa",
+      "rows": 2000,
+      "pairs": 1000,
+      "hallucinated_frac": 0.5,
+      "md5": "f6c8dad3321ce98018cf5c9ce5e92853"
+    },
+    "test_qa": {
+      "file": "test_qa.jsonl",
+      "task": "qa",
+      "rows": 2000,
+      "pairs": 1000,
+      "hallucinated_frac": 0.5,
+      "md5": "468b54d73ab6abab55653f0d2278814c"
+    },
+    "test_dialogue": {
+      "file": "test_dialogue.jsonl",
+      "task": "dialogue",
+      "rows": 2000,
+      "pairs": 1000,
+      "hallucinated_frac": 0.5,
+      "md5": "b1284a379e1a9329a603227c6c17c547"
+    },
+    "test_summarization": {
+      "file": "test_summarization.jsonl",
+      "task": "summarization",
+      "rows": 2000,
+      "pairs": 1000,
+      "hallucinated_frac": 0.5,
+      "md5": "d3fcff36fa9375fb2942c679e646e6e5"
+    }
+  }
+}
