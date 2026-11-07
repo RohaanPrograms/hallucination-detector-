@@ -1,0 +1,15 @@
+{
+  "model": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "score_type": "one_minus_entail",
+  "threshold": 0.6846923828125,
+  "val_auroc_by_score_type": {
+    "one_minus_entail": 0.8025270000000001,
+    "contradiction": 0.7417549999999999
+  },
+  "n_rows": {
+    "val": 2000,
+    "test_qa": 2000,
+    "test_dialogue": 2000,
+    "test_summarization": 2000
+  }
+}
