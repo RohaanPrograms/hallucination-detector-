@@ -5,7 +5,7 @@
 | Method | Needs training? | Owner |
 |---|---|---|
 | TF-IDF + logistic regression | yes | Nick |
-| Fine-tuned DistilBERT / DeBERTa | yes | Rohaan (was CK) |
+| Fine-tuned DistilBERT / DeBERTa | yes | Rohaan |
 | NLI checker (pretrained RoBERTa/DeBERTa) | no | Rohaan |
 | Self-consistency (SelfCheckGPT-style) | no | Connor |
 | Shared data splits | – | Rohaan |
