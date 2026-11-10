@@ -1,0 +1,23 @@
+{
+  "model": "distilbert-base-uncased",
+  "with_source": true,
+  "max_len": 512,
+  "lrs_tried": [
+    2e-05,
+    5e-05
+  ],
+  "epochs_max": 3,
+  "batch_size": 32,
+  "seed": 42,
+  "chosen_lr": 2e-05,
+  "chosen_epoch": 2,
+  "val_auroc": 0.9963405,
+  "threshold": 0.6424205303192139,
+  "n_rows": {
+    "train": 16000,
+    "val": 2000,
+    "test_qa": 2000,
+    "test_dialogue": 2000,
+    "test_summarization": 2000
+  }
+}

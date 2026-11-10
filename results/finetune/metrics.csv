@@ -1,0 +1,5 @@
+method,split,accuracy,f1,auroc
+fine-tuned distilbert-base-uncased,val,0.978,0.9776195320447609,0.9881814999999999
+fine-tuned distilbert-base-uncased,test_qa,0.981,0.9807302231237323,0.9897704999999999
+fine-tuned distilbert-base-uncased,test_dialogue,0.5775,0.6963708228530363,0.685181
+fine-tuned distilbert-base-uncased,test_summarization,0.516,0.6734143049932524,0.495756
