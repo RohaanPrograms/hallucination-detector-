@@ -1,0 +1,5 @@
+split,accuracy,f1,auroc
+val,0.5730,0.6919,0.5902
+test_qa,0.5445,0.6752,0.5645
+test_dialogue,0.5490,0.6859,0.6205
+test_summarization,0.5125,0.6683,0.6208
