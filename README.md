@@ -18,6 +18,9 @@ Dataset: [HaluEval](https://github.com/RUCAIBox/HaluEval). Trained on QA, tested
 data/splits/       shared train / val / test files (use these, don't re-split)
 data_utils.py      load_split("train") etc.
 make_splits.py     script that built the splits (seed 42, reproducible)
+tfidf_baseline.py  TF-IDF + logistic regression (trained baseline) -> results/tfidf/
 ```
+
+Run the TF-IDF baseline from the repo root (CPU, about a minute): `python tfidf_baseline.py`
 
 Setup: `pip install pandas numpy scikit-learn`
