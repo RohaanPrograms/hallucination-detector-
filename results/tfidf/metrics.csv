@@ -1,0 +1,5 @@
+method,split,accuracy,f1,auroc
+TF-IDF + logistic regression,val,0.9285,0.9254820218863992,0.9634855
+TF-IDF + logistic regression,test_qa,0.936,0.9332638164754953,0.9745645000000001
+TF-IDF + logistic regression,test_dialogue,0.571,0.6889050036258159,0.6826535
+TF-IDF + logistic regression,test_summarization,0.4995,0.6657762938230384,0.6966810000000001

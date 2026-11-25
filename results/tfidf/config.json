@@ -1,0 +1,43 @@
+{
+  "method": "TF-IDF + logistic regression",
+  "input": "response",
+  "ngram_range": [
+    1,
+    1
+  ],
+  "C": 10.0,
+  "min_df": 2,
+  "n_features": 7746,
+  "inputs_tried": [
+    "response",
+    "query_response"
+  ],
+  "ngram_ranges_tried": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "Cs_tried": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "val_auroc": 0.9634855,
+  "threshold": 0.5967105295589907,
+  "intercept": -3.1583908297375873,
+  "sklearn_version": "1.5.2",
+  "n_rows": {
+    "train": 16000,
+    "val": 2000,
+    "test_qa": 2000,
+    "test_dialogue": 2000,
+    "test_summarization": 2000
+  }
+}
